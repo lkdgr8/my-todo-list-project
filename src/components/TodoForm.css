@@ -1,0 +1,103 @@
+.styles{
+    width: 100%;
+}
+
+.styles p{
+    text-align: center;
+}
+
+.display-flex{
+    width: 100%;
+    display: flex;
+    flex-direction: row !important;
+}
+
+.display-flex{
+    display: flex;
+    border: 2px solid blue;
+    border-radius: 20px;
+    width: 520px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+.delete{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.edit{
+    font-size: 25px;
+    cursor: pointer;
+    padding-left: 5px;
+}
+
+p{
+   font-size: 20px;
+   font-weight: 600;
+   word-break: break-word !important;
+   text-align: justify;
+   width: 350px;
+}
+
+.icons{     
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.display-flex{
+    background: linear-gradient(
+    90deg,
+    rgba(255, 118, 20, 1) 0%,
+    rgba(255, 84, 17, 1) 100%
+  ) !important;
+}
+
+.display-flex:nth-child(4n + 1) {
+    background: linear-gradient(
+      90deg,
+      rgba(93, 12, 255, 1) 0%,
+      rgba(155, 0, 250, 1) 100%
+    ) !important;
+  }
+  
+.display-flex:nth-child(4n + 2) {
+ background: linear-gradient(
+    90deg,
+    rgba(255, 12, 241, 1) 0%,
+    rgba(250, 0, 135, 1) 100%
+) !important;
+}
+
+.display-flex:nth-child(4n + 3) {
+ background: linear-gradient(
+    90deg,
+    rgba(20, 159, 255, 1) 0%,
+    rgba(17, 122, 255, 1) 100%
+) !important;
+}
+
+.submit{
+    border-radius: 25px;
+    padding: 3px 15px;
+    background-color: blue;
+    color: white;
+    margin-left: 7px;
+    font-weight: 500;
+}
+
+.form > input{
+    border-radius: 6px;
+    padding-left: 5px;
+}
+
+@media (max-width: 460px){
+    p{
+        width: 100% !important;
+    }
+    .display-flex{
+        width: 90%;
+    }
+}
