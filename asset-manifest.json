@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/RoboFreindsapp/static/css/main.3c84d225.css",
-    "main.js": "/RoboFreindsapp/static/js/main.6584968f.js",
-    "static/js/787.7b63f85e.chunk.js": "/RoboFreindsapp/static/js/787.7b63f85e.chunk.js",
-    "index.html": "/RoboFreindsapp/index.html",
-    "main.3c84d225.css.map": "/RoboFreindsapp/static/css/main.3c84d225.css.map",
-    "main.6584968f.js.map": "/RoboFreindsapp/static/js/main.6584968f.js.map",
-    "787.7b63f85e.chunk.js.map": "/RoboFreindsapp/static/js/787.7b63f85e.chunk.js.map"
+    "main.css": "/my-todo-list-project/static/css/main.3c84d225.css",
+    "main.js": "/my-todo-list-project/static/js/main.686b3215.js",
+    "static/js/787.7b63f85e.chunk.js": "/my-todo-list-project/static/js/787.7b63f85e.chunk.js",
+    "index.html": "/my-todo-list-project/index.html",
+    "main.3c84d225.css.map": "/my-todo-list-project/static/css/main.3c84d225.css.map",
+    "main.686b3215.js.map": "/my-todo-list-project/static/js/main.686b3215.js.map",
+    "787.7b63f85e.chunk.js.map": "/my-todo-list-project/static/js/787.7b63f85e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3c84d225.css",
-    "static/js/main.6584968f.js"
+    "static/js/main.686b3215.js"
   ]
 }
