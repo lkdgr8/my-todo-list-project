@@ -17,7 +17,6 @@ function TodoForm(props) {
           <>
           <input 
             type="text" 
-            placeholder='your title' 
             value={input} 
             onChange={(e) => { setInput(e.target.value) }} 
             autoFocus
