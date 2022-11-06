@@ -14,18 +14,19 @@ const store_item = () => {
 
 function TodoList() {
   const [todo, setTodo] = useState(store_item());
-   
   const addTodo = id => {
     if (!id.text) {
       alert('please enter the title of your todo list');
     }
     else {
       const newTodos = [id, ...todo];
+      console.log(id);
       setTodo(newTodos);
     }
     }
 
   const updateTodo = (todoId, newValue) => {
+    // console.log(todo,prev)
     setTodo(prev => prev.map(item => (item.id === todoId ? newValue : item)));
   }
 
